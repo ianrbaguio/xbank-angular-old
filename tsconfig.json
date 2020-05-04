@@ -11,15 +11,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "shared": [
-        "dist/shared/shared",
-        "dist/shared"
-      ]
+      "@libraries/*": ["libraries/*"],
+      "@data-access/*": ["libraries/data-access/*"],
+      "shared": ["dist/shared/shared", "dist/shared"]
     }
   },
   "angularCompilerOptions": {
