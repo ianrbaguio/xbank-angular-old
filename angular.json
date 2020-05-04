@@ -161,6 +161,11 @@
       "root": "libraries/shared",
       "sourceRoot": "libraries/shared/src",
       "prefix": "shared",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -189,9 +194,7 @@
               "libraries/shared/tsconfig.lib.json",
               "libraries/shared/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
