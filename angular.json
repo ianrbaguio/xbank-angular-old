@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "newProjectRoot": "libraries/data-access/",
+  "newProjectRoot": "libraries/",
   "projects": {
     "xbank-angular": {
       "projectType": "application",
@@ -152,6 +152,46 @@
               "libraries/data-access/general/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
+          }
+        }
+      }
+    },
+    "shared": {
+      "projectType": "library",
+      "root": "libraries/shared",
+      "sourceRoot": "libraries/shared/src",
+      "prefix": "shared",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "libraries/shared/tsconfig.lib.json",
+            "project": "libraries/shared/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libraries/shared/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libraries/shared/src/test.ts",
+            "tsConfig": "libraries/shared/tsconfig.spec.json",
+            "karmaConfig": "libraries/shared/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libraries/shared/tsconfig.lib.json",
+              "libraries/shared/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
