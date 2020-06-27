@@ -13,3 +13,33 @@
   top: 20%;
   left: 25%;
 }
+
+.squestion-header {
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+}
+
+.squestion-form {
+  width: 100%;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.mat-form-field {
+  width: 50%;
+}
+
+.squestion-warning {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+}
+
+.squestion-warning h3 {
+  color: red;
+  font-weight: bold;
+  margin: 0;
+}
