@@ -3,6 +3,11 @@
   height: 300px;
 }
 
+.header-logo {
+  width: 100%;
+  text-align: center;
+}
+
 .squestion-container {
   width: 50%;
   border: 2px solid black;
@@ -10,7 +15,7 @@
   margin: auto;
   min-height: 100px;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 25%;
 }
 
@@ -34,7 +39,7 @@
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  top: 40%;
+  top: 50%;
   text-align: center;
 }
 
