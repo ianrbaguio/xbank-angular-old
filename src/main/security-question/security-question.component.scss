@@ -52,3 +52,40 @@
   font-weight: bold;
   margin: 0;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-logo img {
+    height: 100px;
+  }
+  .squestion-container {
+    top: 30%;
+    left: 25%;
+  }
+
+  .squestion-warning {
+    top: 60%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .squestion-container {
+    top: 40%;
+  }
+
+  .squestion-warning {
+    top: 70%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .squestion-container {
+    top: 50%;
+  }
+
+  .squestion-warning {
+    top: 80%;
+  }
+}
