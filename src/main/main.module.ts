@@ -4,9 +4,10 @@ import { SecurityQuestionComponent } from './security-question/security-question
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AccountSummaryComponent } from './account-summary/account-summary.component';
 
 @NgModule({
-  declarations: [SecurityQuestionComponent],
+  declarations: [SecurityQuestionComponent, AccountSummaryComponent],
   imports: [
     CommonModule,
     MatInputModule,
