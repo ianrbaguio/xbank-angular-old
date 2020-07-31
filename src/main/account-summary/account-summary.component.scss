@@ -3,9 +3,49 @@
   margin: 50px auto;
 }
 
+.services {
+  width: 100%;
+}
+
+.accounts {
+  margin: 50px 0;
+}
+
+.options-container {
+  width: 60%;
+  display: inline-block;
+}
+
+.account-services-container {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.account-services li {
+  text-align: left;
+}
+
+.account-services {
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.option {
+  width: 45%;
+  height: 25px;
+  padding: 10px;
+  border: 1px solid white;
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+  display: inline-block;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .options {
+  .services {
     display: none;
   }
 
@@ -25,4 +65,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+  .option {
+    width: 40%;
+  }
 }
