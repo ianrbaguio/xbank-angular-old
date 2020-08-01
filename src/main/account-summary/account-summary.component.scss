@@ -13,13 +13,15 @@
   padding: 10px;
 }
 
-.savings-services-container {
+.savings-services-container,
+.chequing-services-container {
   display: inline-block;
   width: 15%;
   vertical-align: top;
   margin: 10px 0;
 }
-.savings-services-container .option {
+.savings-services-container .option,
+.chequing-services-container .option {
   width: 100%;
   height: 25px;
   padding: 10px;
