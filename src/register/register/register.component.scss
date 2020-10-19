@@ -13,3 +13,23 @@ h3 {
   border: 2px solid black;
   border-radius: 5px;
 }
+
+.personal-info-container,
+.account-balance-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mat-form-field {
+  width: 40%;
+  margin: 0 25px;
+}
+
+.mat-flat-button {
+  width: 50%;
+}
+.register-buttons {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}

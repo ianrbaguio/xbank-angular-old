@@ -2,6 +2,50 @@
   <h2>REGISTER</h2>
   <div class="personal-info-container">
     <h3>PERSONAL INFORMATION</h3>
-    <div class="personal-information-form"></div>
+    <form class="personal-info-form">
+      <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="First Name" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Last Name" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Username</mat-label>
+        <input matInput placeholder="Username" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput type="password" placeholder="Password" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput type="password" placeholder="Password" />
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Client Type</mat-label>
+        <mat-select>
+          <mat-option selected>Personal</mat-option>
+          <mat-option>Business</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="account-balance-container">
+    <h3>ACCOUNT BALANCE INFORMATION</h3>
+    <form>
+      <mat-form-field>
+        <mat-label>Savings</mat-label>
+        <input matInput placeholder="0.00" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Chequing</mat-label>
+        <input matInput placeholder="0.00" />
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="register-buttons">
+    <button mat-flat-button color="primary">Register</button>
   </div>
 </div>
