@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from 'src/login/login.module';
 import { MainModule } from 'src/main/main.module';
+import { RegisterModule } from 'src/register/register.module';
 import { SharedModule } from '@libraries/shared/src/lib/shared.module';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { SharedModule } from '@libraries/shared/src/lib/shared.module';
     LoginModule,
     SharedModule,
     MainModule,
+    RegisterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
