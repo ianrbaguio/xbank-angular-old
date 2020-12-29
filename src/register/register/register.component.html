@@ -2,6 +2,16 @@
   <h2>REGISTER</h2>
   <div class="personal-info-container">
     <h3>PERSONAL INFORMATION</h3>
-    <div class="personal-information-form"></div>
+    <div class="personal-information-form">
+      <form class="register-form">
+        <mat-form-field>
+          <mat-label>First Name</mat-label>
+          <input type="text" matInput [formControl]="fNameFormControl" placeholder="Enter your first name"/>
+          <mat-error *ngIf="fNameFormControl.hasError('required')">
+            Enter a valid first name
+          </mat-error>
+        </mat-form-field>
+      </form>
+    </div>
   </div>
 </div>
