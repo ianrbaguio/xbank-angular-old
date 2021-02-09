@@ -18,7 +18,7 @@ pipeline{
             steps{
                 sh """
                 rm -rf /var/www/xbank-angular/dist
-                cp -a ./dist/var/www/xbank-angular/dist"""
+                cp -a ./dist/ /var/www/xbank-angular/dist"""
             }
         }
     }
