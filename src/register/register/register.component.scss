@@ -4,6 +4,7 @@ h2 {
 
 h3 {
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .container {
@@ -14,22 +15,33 @@ h3 {
   border-radius: 5px;
 }
 
-.personal-info-container,
-.account-balance-container {
-  width: 80%;
+.register-form{
+  width:50%;
   margin: 0 auto;
 }
 
-.mat-form-field {
+.register-form-button-container{
+  width:20%;
+  margin: 0 auto
+}
+
+.register-form-button-container a{
+  margin: 10px;
+}
+
+.mat-form-field{
+  padding: 25px;
   width: 40%;
-  margin: 0 25px;
 }
 
-.mat-flat-button {
-  width: 50%;
+.register-button {
+  margin-top: 10px;
+  background-color: yellow;
+  color: blue;
 }
-.register-buttons {
-  width: 75%;
-  margin: 0 auto;
-  text-align: center;
+
+.cancel-button {
+  margin-top:10px;
+  background-color: blue;
+  color: white;
 }

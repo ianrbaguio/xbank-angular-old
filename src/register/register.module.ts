@@ -1,20 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatInputModule } from '@angular/material/input';
+import { SharedModule } from '@libraries/shared/src/lib/shared.module';
 import { RegisterComponent } from './register/register.component';
-import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material/card';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [RegisterComponent],
   imports: [
     CommonModule,
+    SharedModule,
     MatInputModule,
-    MatSelectModule,
     MatButtonModule,
+    MatCardModule,
     FormsModule,
-    ReactiveFormsModule,
-  ],
+    ReactiveFormsModule
+  ]
 })
 export class RegisterModule {}
