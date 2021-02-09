@@ -19,4 +19,4 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     ReactiveFormsModule
   ]
 })
-export class RegisterModule { }
+export class RegisterModule {}
