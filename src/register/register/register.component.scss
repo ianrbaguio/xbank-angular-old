@@ -45,3 +45,49 @@ h3 {
   background-color: blue;
   color: white;
 }
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .mat-form-field{
+    width:85%;
+    padding: 10px;
+  }
+
+  .register-form{
+    width: 80%;
+  }
+
+  .register-form-button-container{
+    width:50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mat-form-field{
+    width:85%;
+    padding: 10px;
+  }
+
+  .register-form{
+    width: 80%;
+  }
+
+  .register-form-button-container{
+    width:50%;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
