@@ -5,3 +5,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.ok-button {
+    margin: 10px !important;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.7);
+    color: yellow;
+}
+
+.cancel-button{
+    margin: 10px !important; 
+    background-color: yellow;
+    color: rgba(0, 0, 255, 0.7);
+}

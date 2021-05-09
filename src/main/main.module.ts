@@ -8,9 +8,10 @@ import {MatSelectModule} from '@angular/material/select';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AccountSummaryComponent } from './account-summary/account-summary.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
+import { NewTransactionComponent } from './new-transaction/new-transaction.component';
 
 @NgModule({
-  declarations: [SecurityQuestionComponent, AccountSummaryComponent, TransactionHistoryComponent],
+  declarations: [SecurityQuestionComponent, AccountSummaryComponent, TransactionHistoryComponent, NewTransactionComponent],
   imports: [
     CommonModule,
     MatInputModule,

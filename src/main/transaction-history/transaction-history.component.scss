@@ -15,7 +15,7 @@
 }
 
 .account-number-tab, .balance-tab, .available-balance-tab{
-    width: 32%;
+    width: 30%;
     text-align:center;
     padding: 10px;
     display:inline-block;
@@ -52,3 +52,23 @@
 .transaction-history-table-container table{
     width: 100%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .transaction-filter-container{
+        display:none;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .account-number-tab, .balance-tab, .available-balance-tab{
+        width:25%;
+    }
+  }
+  
